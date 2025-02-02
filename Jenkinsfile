@@ -1,4 +1,4 @@
-node{
+Pipeline{
   agent 'wsl-agent'
   def app
 
