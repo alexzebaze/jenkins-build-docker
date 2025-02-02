@@ -1,4 +1,5 @@
 node{
+  agent 'wsl-agent'
   def app
 
     stage('Clone') {
