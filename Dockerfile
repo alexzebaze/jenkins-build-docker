@@ -1,4 +1,4 @@
 FROM nginx:latest
-RUN sed -i 's/nginx/xavki/g' /usr/share/nginx/html/index.html
+RUN sed -i 's/nginx/jenkins-tuto/g' /usr/share/jenkins-tuto/html/index.html
 EXPOSE 80
 
