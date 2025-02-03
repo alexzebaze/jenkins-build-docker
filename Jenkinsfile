@@ -4,7 +4,7 @@ node('wsl-agent') {
     def IMAGE = "${registryProjet}:version-${env.BUILD_ID}"
 
     stage('Clone') {
-        git 'https://github.com/alexzebaze/jenkins-build-docker.git'
+        checkout scm
     }
 
     def img = stage('Build') {
